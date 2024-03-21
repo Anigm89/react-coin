@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    color: cadetblue;
+}
+a, p, h1, h2, h3, h4, h5, h6{font-family: sans-serif;}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid cadetblue;
+    border-bottom: 2px solid cadetblue;
+    padding: 1% 0;
+}
+li{
+    list-style: circle;
+    color: cadetblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
